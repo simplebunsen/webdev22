@@ -1,0 +1,9 @@
+a) h1, p, h2, h3, strong, em, mark, sup
+
+b) siehe Aufgabe 3.html
+
+c) es gibt sehr viele weitere HTML Elemente
+    https://www.w3schools.com/tags/default.asp
+
+d) Browser haben u. U. verschiedene Default styles aber meist
+sind sie sehr ähnlich
