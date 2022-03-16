@@ -1,0 +1,39 @@
+<!ELEMENT Mitarbeiter (Nachname, Vorname, 
+            Position, Abteilung, Wohnort,
+            Homeoffice)>
+<!ELEMENT Nachname (#PCDATA)>
+<!ELEMENT Vorname (#PCDATA)>
+<!ELEMENT Position (#PCDATA)>
+<!ELEMENT Abteilung (#PCDATA)>
+<!ELEMENT Wohnort (#PCDATA)>
+<!ELEMENT Homeoffice (#PCDATA)>
+
+<!ELEMENT Standort (Stadt, Straße, Mitarbeiter)>
+<!ELEMENT Stadt (#PCDATA)>
+<!ELEMENT Straße (#PCDATA)>
+
+
+
+<Standort>
+    <Stadt>Augsburg</Stadt>
+    <Straße>Maxstraße</Straße>
+
+    <Mitarbeiter>
+        <Nachname>Peter</Nachname>
+        <Vorname>Müller</Vorname>
+        <Position>ABC</Position>
+        <Abteilung>DEF</Abteilung>
+        <Wohnort>GHJ</Wohnort>
+        <Homeoffice />
+    </Mitarbeiter>
+
+    <Mitarbeiter>
+        <Nachname>Thomas</Nachname>
+        <Vorname>Müller</Vorname>
+        <Position>ABC</Position>
+        <Abteilung>DEF</Abteilung>
+        <Wohnort>GHJ</Wohnort>
+        <Homeoffice />
+    </Mitarbeiter>
+</Standort>
+
