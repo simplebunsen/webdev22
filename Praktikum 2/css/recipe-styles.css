@@ -1,0 +1,33 @@
+article h1{
+    font-family: 'Inspiration', cursive;
+    font-size: 5rem;
+    color: lightseagreen;
+}
+
+article h2{
+    color:lightseagreen;
+}
+
+article ul li{
+    list-style-type: circle;
+}
+
+article ol li{
+    list-style-type: upper-roman;
+}
+
+article li::marker{
+    color: lightseagreen;
+}
+
+
+article ol li::marker{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+article{
+    background: lightgray;
+    margin: 1rem;
+    padding: 2rem;
+}
